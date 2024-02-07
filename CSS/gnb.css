@@ -1,0 +1,72 @@
+.gnb {
+    background-color: #ee4d2d;
+    padding: 10px;
+    color: white;
+}
+.atas, .bawah {
+    width: 1200px;
+    margin: auto;
+}
+.atas {
+    margin-bottom: 20px;
+}
+.kiri {    
+    margin-right: auto;
+}
+.kiri > li, .kiri > i {
+    margin-right: 5px;
+}
+.kanan {
+    margin-left: auto;
+}
+.kanan > li {
+    margin-right: 10px;
+}
+.kanan > li > i {
+    margin-right: 5px;
+}
+.search {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+.search-box {
+    width: 840px;
+    height: 40px;
+    background-color: white;
+    border-radius: 2px;
+    padding: 1px;
+}
+.search-box > input {
+    width: 91%;
+    height: 35px;
+
+    margin-right: auto;
+    border: none;
+}
+.search-box > button {
+    background-color: #f53d2d;
+    color: white;
+    width: 60px;
+    height: 35px;
+    border: none;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+.tags {
+    margin-top: 5px;
+}
+.tags > li {
+    margin-right: 10px;
+}
+.tags > li:last-child {
+    margin-right: auto;
+}
+.cart {
+    font-size: 24px;
+    margin-right: 70px;
+    margin-left: 30px;
+}
+.bawah > img {
+    margin-bottom: 10px;
+}
